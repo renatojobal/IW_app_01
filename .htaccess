@@ -19,3 +19,6 @@ ErrorDocument 404 http://127.0.0.1/iw_app_01/errors/error.php?error=404
 
 # ERROR 500
 ErrorDocument 500 http://127.0.0.1/iw_app_01/errors/error.php?error=500
+
+
+DirectoryIndex main.html main.htm main.html main.php
