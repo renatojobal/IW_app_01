@@ -21,11 +21,13 @@ class user_controller{
 	        $user->setNombres($_POST['nombres']);
 	        $user->setApellidos($_POST['apellidos']);
 	        $user->setCorreo($_POST['correo']);
+			$user->setClave($_POST['clave']);
+			$user->setTipoUser($_POST['tipoUser']);
         	$userResponse = $user->CreateUser();
 	        //echo  $userResponse . " response"; //BORRAR
 	        if ($userResponse == 1) // exitoso
 	        {
-	            echo "siii";
+	            echo "<script>location.href='../views/user.php'</script>";
 	        } else {
 	            echo "<h1>Error al crear usuario.</h1>";
 	        }
@@ -38,5 +40,49 @@ class user_controller{
         $userResponse = $user->ListUser();
         
     }
+	public function GetUser($id)
+    {
+        $user = new UserModel();
+        $userResponse = $user->GetUser($id);
+		//echo "<script>console.log('$userResponse');</script>";
+		return $userResponse;
+		
+    }
+
+	public function updateUser($id){
+        $user = new UserModel();
+        if (isset($_POST['nombres'])&&isset($_POST['apellidos'])) {
+            $user->setNombres($_POST['nombres']);
+            $user->setApellidos($_POST['apellidos']);
+            $user->setCorreo($_POST['correo']);
+            $user->setClave($_POST['clave']);
+            $user->setTipoUser($_POST['tipoUser']);
+            $userResponse = $user->UpdateUser($id);
+            //echo  $userResponse . " response"; //BORRAR
+            if ($userResponse == 1) // exitoso
+            {
+                echo "<script>location.href='../views/user.php'</script>";
+            } else {
+                echo "<h1>Error al crear usuario.</h1>";
+            }
+        }
+
+        return $userResponse;
+    }
+
+    public function deleteUser($id){
+        $user = new UserModel();
+            $userResponse = $user->DeleteUser($id);
+            //echo  $userResponse . " response"; //BORRAR
+            if ($userResponse == 1) // exitoso
+            {
+                echo "<script>location.href='../views/user.php'</script>";
+            } else {
+                echo "<h1>Error al crear usuario.</h1>";
+            }
+    }
+
+
+
 }
 ?>
