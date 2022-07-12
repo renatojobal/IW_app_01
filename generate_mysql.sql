@@ -10,6 +10,13 @@ INSERT INTO `usuarios` (`id`, `nombres`, `apellidos`, `correo`, `clave`, `tipoUs
 --
 -- Indices de la tabla `platos`
 --
+
+
+INSERT INTO `platos` (`id`, `nombre`, `descripcion`, `precio`, `tipoPlato`) VALUES
+(1, 'Pollo', 'Seco de pollo', 2.75, 2),
+(2, 'Empanada', 'Empanada de verde', 2.75, 2);
+
+
 ALTER TABLE `platos`
   ADD PRIMARY KEY (`id`);
 
