@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Mi primera app</title>
 	<link rel="stylesheet" type="text/css" href="../css/estilos.css">
+	
 </head>
 <body>
 	<header class="cabeceraPrincipal">
@@ -16,7 +17,7 @@
 		<a href="contactos.php">Registro</a>
 		<a href="listados.php">Listado</a>
 		<a href="login.php">Login</a>
-		<a href="internas/pedidos.php">Pedidos</a>
+		<a href="pedidos.php">Pedidos</a>
 	</nav>
 	
 	<main>
