@@ -16,6 +16,7 @@
 		<a href="contactos.php">Registro</a>
 		<a href="listados.php">Listado</a>
 		<a href="login.php">Login</a>
+		<a href="internas/pedidos.php">Pedidos</a>
 	</nav>
 	
 	<main>

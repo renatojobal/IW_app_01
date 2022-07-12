@@ -5,6 +5,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Mi primera app</title>
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script> 
 </head>
 <body>
 	<div class="headerContainer">	
@@ -17,6 +22,7 @@
 			<a href="internas/contactos.php">Registro</a>
 			<a href="internas/listados.php">Listado</a>
 			<a href="internas/login.php">Login</a>
+			<a href="internas/pedidos.php">Pedidos</a>
 		</nav>
 		<section class="sliderPrincipal">
 			<img src="images/slider1.jpg" alt="Slider" title="sliderPrincipal">
