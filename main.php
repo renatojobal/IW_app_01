@@ -14,7 +14,7 @@
 <body>
 	<div class="headerContainer">	
 		<header class="cabeceraPrincipal">
-			<h1>Vilonaco Food</h1>
+			<h1>Pinchos</h1>
 		</header>
 		<nav class="menuPrincipal">
 			<a href="">Inicio</a>
