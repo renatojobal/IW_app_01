@@ -38,23 +38,23 @@
                 <div class="form-group">
                     <label for="nombre">Entrada 3,00$</label>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                        <input class="form-check-input" type="radio" name="platoEntrada" id="option1"
                             value="option1">
-                        <label class="form-check-label" for="exampleRadios1">
+                        <label class="form-check-label" for="option1">
                             Coctel de camaron
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
+                        <input class="form-check-input" type="radio" name="platoEntrada" id="option2"
                             value="option2">
-                        <label class="form-check-label" for="exampleRadios2">
+                        <label class="form-check-label" for="option2">
                             Rollos de pollo
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3"
+                        <input class="form-check-input" type="radio" name="platoEntrada" id="option3"
                             value="option3">
-                        <label class="form-check-label" for="exampleRadios3">
+                        <label class="form-check-label" for="option3">
                            Enrollado de papa con atun
                         </label>
                     </div>
@@ -64,23 +64,23 @@
                  <div class="form-group">
                     <label for="nombre">Plato fuerte 4,00$</label>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
-                            value="option1">
-                        <label class="form-check-label" for="exampleRadios1">
+                        <input class="form-check-input" type="radio" name="platoFuerte" id="option4"
+                            value="option4">
+                        <label class="form-check-label" for="option4">
                             Coctel de camaron
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
-                            value="option2">
-                        <label class="form-check-label" for="exampleRadios2">
+                        <input class="form-check-input" type="radio" name="platoFuerte" id="option5"
+                            value="option5">
+                        <label class="form-check-label" for="option5">
                             Rollos de pollo
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3"
-                            value="option3">
-                        <label class="form-check-label" for="exampleRadios3">
+                        <input class="form-check-input" type="radio" name="platoFuerte" id="option6"
+                            value="option6">
+                        <label class="form-check-label" for="option6">
                            Enrollado de papa con atun
                         </label>
                     </div>
@@ -91,23 +91,23 @@
                  <div class="form-group">
                     <label for="nombre">Postre 1,50$</label>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                        <input class="form-check-input" type="radio" name="postre" id="option1"
                             value="option1">
-                        <label class="form-check-label" for="exampleRadios1">
+                        <label class="form-check-label" for="option1">
                             Coctel de camaron
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
+                        <input class="form-check-input" type="radio" name="postre" id="option2"
                             value="option2">
-                        <label class="form-check-label" for="exampleRadios2">
+                        <label class="form-check-label" for="option2">
                             Rollos de pollo
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3"
+                        <input class="form-check-input" type="radio" name="postre" id="option3"
                             value="option3">
-                        <label class="form-check-label" for="exampleRadios3">
+                        <label class="form-check-label" for="option3">
                            Enrollado de papa con atun
                         </label>
                     </div>
