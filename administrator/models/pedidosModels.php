@@ -11,6 +11,15 @@ class PedidoModel
   private $nombreCliente;
   private $pagado; // Int
  
+  public function setArgs($idPlatoEntrada, $idPlatoFuerte, $idPostre, $nombreCliente, $pagado){
+    $this->idPlatoEntrad=$idPlatoEntrada;
+    $this->idPlatoEntrada=$idPlatoEntrada;
+    $this->idPlatoFuerte=$$idPlatoFuerte;
+    $this->idPostre=$idPostre;
+    $this->nombreCliente=$nombreCliente;
+    $this->pagado=$pagado; // Int
+
+  }
 
   #region Set y Get
   public function getIdPedido(){

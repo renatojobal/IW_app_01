@@ -18,10 +18,15 @@ class pedido_controller{
         $pedido = new PedidoModel();
 
         // if (isset($_POST['nombreCliente'])) {
-	        // $pedido->setNombre($_POST['nombre']);
-	        // $pedido->setDescripcion($_POST['descripcion']);
-	        // $pedido->setPrecio($_POST['precio']);
-        	$pedidoResponse = $pedido->CreatePedido();
+
+			$pedido->setArgs(
+				$_POST['idPlatoEntrada'],
+				$_POST['idPlatoFuerte'],
+				$_POST['idPostre'],
+				$_POST['nombreCliente'],
+				$_POST['pagado']
+			);
+			$pedidoResponse = $pedido->CreatePedido();
 	        //echo  $userResponse . " response"; //BORRAR
 	        if ($pedidoResponse == 1) // exitoso
 	        {

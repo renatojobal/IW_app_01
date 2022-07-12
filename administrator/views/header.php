@@ -16,7 +16,7 @@ include("../seguridad/seguridad.php");
 <body>
 	<header class="cabeceraPrincipal">
 		<section class="logoCabecera">
-			<img src="../images/icnbl.png" alt="Logo Restaurante"> Villonaco Food
+			<img src="../images/icnbl.png" alt="Logo Restaurante"> Pinchos
 		</section>
 		<section class="widgetsCabecera">
 			<h5><a href="../seguridad/exit.php?salir=true">Cerrar sesion</a></h5>
