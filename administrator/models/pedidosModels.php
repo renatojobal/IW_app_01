@@ -29,7 +29,7 @@ class PedidoModel
   public function ListPedido() {
     $miconexion = new clase_mysqli;
     $miconexion->conectar(DBHOST, DBUSER, DBPASS, DBNAME);
-    $resSQL=$miconexion->consulta("select id, idPlatoEntrada, idPlatoFuerte, idPostre, nombreCliente, pagado from pedidos");
+    $resSQL=$miconexion->consulta("select id, idPlatoEntrada, idPlatoFuerte, idPostre, nombreCliente, pagado from pedidoshardcoded");
     $resSQL=$miconexion->verconsultacrud("pedido_update.php","delete_pedido.php");
     //$this->Disconnect();
     return $resSQL;
@@ -37,7 +37,7 @@ class PedidoModel
   public function CreatePedido() {
     $miconexion = new clase_mysqli;
     $miconexion->conectar(DBHOST, DBUSER, DBPASS, DBNAME);
-    $resSQL=$miconexion->consulta("insert into pedidos values('','$this->idPlatoEntrada','$this->idPlatoFuerte','$this->idPostre','$this->nombreCliente','$this->pagado')");
+    $resSQL=$miconexion->consulta("insert into pedidoshardcoded values('','$this->idPlatoEntrada','$this->idPlatoFuerte','$this->idPostre','$this->nombreCliente','$this->pagado')");
 
     //$this->Disconnect();
     return $resSQL;
@@ -47,7 +47,7 @@ class PedidoModel
     
     $miconexion = new clase_mysqli;
     $miconexion->conectar(DBHOST, DBUSER, DBPASS, DBNAME);
-    $resSQL=$miconexion->consulta("select * from pedidos where id = $idPedido ");
+    $resSQL=$miconexion->consulta("select * from pedidoshardcoded where id = $idPedido ");
     $lista_pedidos = $miconexion -> consulta_lista();
     //$this->Disconnect();
     return $lista_pedidos;
@@ -57,7 +57,7 @@ class PedidoModel
 public function DeletePedido($idPedido){
   $miconexion= new clase_mysqli();
   $miconexion->conectar(DBHOST, DBUSER, DBPASS, DBNAME);
-  $resSQL=$miconexion->consulta("delete from `pedidos` where `pedidos`.`id` = $idPedido;");
+  $resSQL=$miconexion->consulta("delete from `pedidoshardcoded` where `pedidos`.`id` = $idPedido;");
   return $resSQL;
   
 }
