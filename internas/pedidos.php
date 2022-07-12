@@ -28,7 +28,7 @@
     <main>
         <div class="boxCentrado">
             <h2 class="h2Home">Hacer un pedido</h2>
-            <form>
+            <form  method="post" action="../administrator/controller/add_pedido.php">
                 <div class="form-group">
                     <label for="nombre">Nombre del comensal</label>
                     <input type="text" class="form-control" id="nombre" placeholder="Jhon Doe">

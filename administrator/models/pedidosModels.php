@@ -16,8 +16,6 @@ class PedidoModel
   public function getIdPedido(){
     return $this->idPedido;
   }
-
-
   
   public function ListPedido() {
     $miconexion = new clase_mysqli;
