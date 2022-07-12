@@ -30,8 +30,8 @@
             <h2 class="h2Home">Hacer un pedido</h2>
             <form  method="post" action="../administrator/controller/add_pedido.php">
                 <div class="form-group">
-                    <label for="nombre">Nombre del comensal</label>
-                    <input type="text" class="form-control" id="nombre" placeholder="Jhon Doe">
+                    <label for="nombreCliente">Nombre del comensal</label>
+                    <input type="text" class="form-control" name="nombreCliente" id="nombreCliente" placeholder="Jhon Doe">
                 </div>
 
                 <!-- Entrada -->

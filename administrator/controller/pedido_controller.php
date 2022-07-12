@@ -17,7 +17,7 @@ class pedido_controller{
     {
         $pedido = new PedidoModel();
 
-        if (isset($_POST['nombreCliente'])) {
+        // if (isset($_POST['nombreCliente'])) {
 	        // $pedido->setNombre($_POST['nombre']);
 	        // $pedido->setDescripcion($_POST['descripcion']);
 	        // $pedido->setPrecio($_POST['precio']);
@@ -29,8 +29,9 @@ class pedido_controller{
 	        } else {
 	            echo "<h1>Error al crear pedido.</h1>";
 	        }
-		}
-        
+		// }else{
+		// 	echo "<h1>Error al crear pedido. El campo nombreCliente es requerido</h1>";
+		// }
     }
     public function ListPedido()
     {
